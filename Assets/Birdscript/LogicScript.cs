@@ -44,7 +44,7 @@ void Update()
     public void AddScore(int scoreToAdd)
     {
         playerScore = playerScore + scoreToAdd;
-        scoreText.text = playerScore.ToString();
+        scoreText.text = "Score: " + playerScore.ToString();
     }   
 
     public void RestartGame()
